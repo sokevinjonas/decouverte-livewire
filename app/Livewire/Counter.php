@@ -6,16 +6,16 @@ use Livewire\Component;
 
 class Counter extends Component
 {   
-    public $counter = 0;
+    public $count = 0;
 
     public function increment()
     {
-        $this->counter++;
+        $this->count++;
     }
 
     public function decrement()
     {
-        $this->counter--;
+        $this->count--;
     }
 
     public function render()
