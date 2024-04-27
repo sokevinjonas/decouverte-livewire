@@ -843,10 +843,10 @@
         <a href="{{ route('cascading_dropdown') }}"
             class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('cascading-dropdown') ? 'bg-slate-800' : '' }}">Descente
             en cascade</a>
-        <a href="/products"
+        <a href="{{ route('products') }}"
             class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('products') ? 'bg-slate-800' : '' }}">Recherche de
             produits</a>
-        <a href="/image-upload"
+        <a href="{{ route('image_upload') }}"
             class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('image-upload') ? 'bg-slate-800' : '' }}">Chargement
             d'images</a>
         <a href="/register"

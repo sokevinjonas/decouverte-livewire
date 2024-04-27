@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Models\Country;
 use Livewire\Component;
 use App\Models\Continent;
 

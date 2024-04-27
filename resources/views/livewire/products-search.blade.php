@@ -1,6 +1,6 @@
 <div class="container mx-auto py-16 px-8">
     <div class="mb-4">
-        <input type="text" wire:model.lazy="search" placeholder="Search for Products">
+        <input type="text" wire:model.live="search" placeholder="Search for Products">
     </div>
     <table class="table-auto w-full">
         <thead>

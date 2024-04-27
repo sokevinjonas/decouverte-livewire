@@ -10,7 +10,6 @@ class ProductsSearch extends Component
 {
     use WithPagination;
 
-
     public string $search = '';
 
     protected $queryString = ['search'];
