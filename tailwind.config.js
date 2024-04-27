@@ -6,7 +6,14 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            current: "currentColor",
+            white: "#ffffff",
+            purple: "#3f3cbb",
+            midnight: "#121063",
+            metal: "#565584",
+            tahiti: "#3ab7bf",
+        },
     },
     plugins: [require("@tailwindcss/forms")],
 };
