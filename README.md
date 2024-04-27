@@ -1,4 +1,4 @@
-# Decouvert - Laravel - Livewire - Tailwind CSS
+# Decouverte - Laravel - Livewire - Tailwind CSS
 
 ## Petite Presentation 🤔
 
