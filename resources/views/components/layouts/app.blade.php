@@ -834,22 +834,23 @@
 <body class="antialiased">
     <nav class="flex bg-slate-700 text-white">
         <a href="{{ route('counter') }}"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('counter') ? 'bg-slate-800' : '' }}">Counter</a>
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('counter') ? 'bg-slate-800' : '' }}">Compteur</a>
         <a href="{{ route('calculator') }}"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('calculator') ? 'bg-slate-800' : '' }}">Calculator</a>
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('calculator') ? 'bg-slate-800' : '' }}">Calculatrice</a>
         <a href="{{ route('todo_list') }}"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('todo-list') ? 'bg-slate-800' : '' }}">TodoList</a>
-        <a href="/cascading-dropdown"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('cascading-dropdown') ? 'bg-slate-800' : '' }}">Cascading
-            Dropdown</a>
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('todo-list') ? 'bg-slate-800' : '' }}">Liste des
+            tâches</a>
+        <a href="{{ route('cascading_dropdown') }}"
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('cascading-dropdown') ? 'bg-slate-800' : '' }}">Descente
+            en cascade</a>
         <a href="/products"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('products') ? 'bg-slate-800' : '' }}">Products
-            Search</a>
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('products') ? 'bg-slate-800' : '' }}">Recherche de
+            produits</a>
         <a href="/image-upload"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('image-upload') ? 'bg-slate-800' : '' }}">Image
-            Upload</a>
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('image-upload') ? 'bg-slate-800' : '' }}">Chargement
+            d'images</a>
         <a href="/register"
-            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('register') ? 'bg-slate-800' : '' }}">Registration</a>
+            class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('register') ? 'bg-slate-800' : '' }}">Enregistrement</a>
     </nav>
     {{ $slot }}
 </body>
