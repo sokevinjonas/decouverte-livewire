@@ -2,7 +2,7 @@
 
 ## Petite Presentation 🤔
 
-<video controls src="public/0427.mp4" title="Petite Presentation du projet"></video>
+![alt text](<public/Screenshot 2024-04-27 061917.png>)
 
 ## 1- Pourquoi un tel projet ?
 

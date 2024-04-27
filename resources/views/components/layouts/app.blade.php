@@ -834,24 +834,24 @@
 <body class="antialiased">
     <nav class="flex bg-red-800 text-white">
         <a href="{{ route('counter') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('counter') ? 'red-700' : '' }}">Compteur</a>
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('counter') ? 'bg-slate-950' : '' }}">Compteur</a>
         <a href="{{ route('calculator') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('calculator') ? 'red-700' : '' }}">Calculatrice</a>
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('calculator') ? 'bg-slate-950' : '' }}">Calculatrice</a>
         <a href="{{ route('todo_list') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('todo-list') ? 'red-700' : '' }}">Liste des
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('todo-list') ? 'bg-slate-950' : '' }}">Liste des
             tâches</a>
         <a href="{{ route('cascading_dropdown') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('cascading-dropdown') ? 'red-700' : '' }}">Descente
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('cascading-dropdown') ? 'bg-slate-950' : '' }}">Descente
             en cascade</a>
         <a href="{{ route('products') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('products') ? 'red-700' : '' }}">Recherche
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('products') ? 'bg-slate-950' : '' }}">Recherche
             de
             produits</a>
         <a href="{{ route('image_upload') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('image-upload') ? 'red-700' : '' }}">Chargement
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('image-upload') ? 'bg-slate-950' : '' }}">Chargement
             d'images</a>
         <a href="{{ route('register') }}"
-            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('register') ? 'red-700' : '' }}">Enregistrement</a>
+            class="py-4 px-6 hover:bg-slate-950 {{ request()->routeIs('register') ? 'bg-slate-950' : '' }}">Enregistrement</a>
     </nav>
     {{ $slot }}
 </body>
