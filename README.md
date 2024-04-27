@@ -1,5 +1,9 @@
 # Decouvert - Laravel - Livewire - Tailwind CSS
 
+## Petite Presentation 🤔
+
+<video controls src="public/0427.mp4" title="Petite Presentation du projet"></video>
+
 ## 1- Pourquoi un tel projet ?
 
 Ce projet Laravel est conçu pour aider à pratiquer et à apprendre l'utilisation de Livewire en intégrant plusieurs mini-projets. Chaque mini-projet démontre une fonctionnalité spécifique et utilise Livewire pour interactivité dynamique.
@@ -36,7 +40,7 @@ Ce projet Laravel est conçu pour aider à pratiquer et à apprendre l'utilisati
 
 ## Comment faire Installation
 
-NB: Ce projet utiliser la version 10 de LARAVEL et version 3.4.11 de LIVEWIRE
+-   NB: Ce projet utiliser la version 10 de LARAVEL et version 3.4.11 de LIVEWIRE
 
 1.  `Clonez ce dépôt sur votre machine locale` :
 
@@ -68,3 +72,11 @@ NB: Ce projet utiliser la version 10 de LARAVEL et version 3.4.11 de LIVEWIRE
 
         npm install
         npm run dev
+
+# Contribution
+
+Toute contribution à l'amélioration de ce projet est la bienvenue ! N'hésitez pas à ouvrir une pull request.
+
+## Auteurs
+
+SO JONAS KEVIN GNINGNABE
