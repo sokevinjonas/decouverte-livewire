@@ -849,7 +849,7 @@
         <a href="{{ route('image_upload') }}"
             class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('image-upload') ? 'bg-slate-800' : '' }}">Chargement
             d'images</a>
-        <a href="/register"
+        <a href="{{ route('register') }}"
             class="py-4 px-6 hover:bg-slate-800 {{ request()->routeIs('register') ? 'bg-slate-800' : '' }}">Enregistrement</a>
     </nav>
     {{ $slot }}
